@@ -1,0 +1,119 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #191919;
+}
+#form_layout{
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	border-radius: 10px;
+	padding: 10px 40px 25px;
+	background: #fbfbfb00;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	box-shadow: 1px 4px 6px #00000082;
+}
+h2{
+	font-family: arial;
+	font-weight: 100;
+	color: #fff;
+}
+#form_layout p{
+	color: red;
+	font-family: arial;
+	font-size: 12px;
+}
+label{
+	font-family: arial;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	color: #ffffffa3;
+}
+input[type="text"], #state{
+	width: 100%;
+	padding: 10px 0;
+	border-radius: 3px;
+	border: none;
+	margin-top: 3px;
+	font-size: 18px;
+	color: #5a5a5a;
+	text-indent: 10px;
+	background: #ffffff14;
+}
+input[type="submit"]{
+	width: 100%;
+	padding: 10px 0;
+	background: linear-gradient(#000000, #0000000d);
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #e0dfce;
+	cursor: pointer;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+input[type="submit"]:hover{
+	background: linear-gradient(#0000000d, #000000);
+}
+.icon{
+	width: 246px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.icon a{
+	background: linear-gradient(0deg, #ddd, #fff);
+	padding: 21px 9px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.icon .fa{
+	width: 40px;
+	height: 40px;
+	background: linear-gradient(0deg, #fff, #ddd);
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50px;
+	transition: 0.5s;
+	margin-bottom: 50px;
+}
+
+.icon a .fb{
+	color: #5d82d1;
+}
+
+.icon a .fb:hover{
+	color: #fff;
+	background: #5d82d1;
+	transform: scale(1.5);
+}
+
+.icon a .twt{
+	color: #40bff5; 
+}
+
+.icon a .twt:hover{
+	color: #fff;
+	background: #40bff5;
+	transform: scale(1.5);
+}
+.icon a .ins{
+	color: #e4405f;
+}
+
+.icon a .ins:hover{
+	color: #fff;
+	background: #e4405f;
+	transform: scale(1.5);
+}
+.icon h2{
+	text-align: center;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+
+
