@@ -42,9 +42,10 @@ function formValidation() {
 
 		}
 
-		return false;
-
 	}
+	
+	
+	return false;
 
 }
 
